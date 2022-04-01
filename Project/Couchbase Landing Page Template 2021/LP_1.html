@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <!-- Marketo Variable Definitions -->
+    <meta class="mktoColor" id="primaryCTABG" mktoname="primary CTA BG" default="#000" />
+    <meta class="mktoColor" id="secondaryCTABG" mktoname="secondary CTA BG" default="#fff" />
+    <meta class="mktoColor" id="primaryCTAColor" mktoname="primary CTA Color" default="#fff" />
+    <meta class="mktoColor" id="secondaryCTAColor" mktoname="secondary CTA Color" default="#000" />
+    
+    <meta class="mktoBoolean" id="showNav" mktoName="Show Top Nav" default="true" false_value="none !important"
+    true_value="block" false_value_name="NO" true_value_name="YES">
+    
+    <meta class="mktoBoolean" id="showHero" mktoName="Show Hero Section" default="true" false_value="none !important"
+    true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoString" id="HeroBGImg" mktoname="Hero BG Image"
+    default="https://info.couchbase.com/rs/302-GJY-034/images/LPHeroBG.png" />
+    <meta class="mktoString" id="heroCTAText" mktoname="2nd CTA Text" default="Call to Action" />
+    <meta class="mktoString" id="heroCTALink" mktoname="2nd CTA Link" default="https://www.couchbase.com/" />
+    
+    <meta class="mktoBoolean" id="showMain" mktoName="Show Main W Form Section" default="true" false_value="none !important"
+    true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoColor" id="formBG" mktoname="Form Container BG" default="#fc9c0c" />
+    
+    <meta class="mktoBoolean" id="showMainFW" mktoName="Show Main Full Width Section" default="false" false_value="none !important"
+    true_value="block" false_value_name="NO" true_value_name="YES">
+    
+    <meta class="mktoBoolean" id="showCountdown" mktoName="Show Countdown Section" default="false"
+    false_value="none !important" true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoColor" id="eventBG" mktoname="Event Countdown BG" default="#5486d0" />
+    <meta class="mktoString" id="CountdownTimer" mktoname="CountdownTimer" default="Jan 1, 2022 00:00:09" />
+    <meta class="mktoBoolean" id="showCountdownCTA" mktoName="Show Countdown CTA" default="false"
+    false_value="none !important" true_value="inline-block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoString" id="CountdownCTAText" mktoname="Countdown CTA Text" default="Reserve Your Spot" />
+    <meta class="mktoString" id="CountdownCTALink" mktoname="Countdown CTA Link" default="https://www.couchbase.com/" />
+    <meta class="mktoString" id="CountdowntopPadding" mktoname="Count down Top padding" default="1rem" />
+    <meta class="mktoString" id="CountdownbtmPadding" mktoname="Count down Bottom padding" default="1rem" />
+
+    <meta class="mktoBoolean" id="showEventName" mktoName="Show Event Section" default="false"
+        false_value="none !important" true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoColor" id="event2BG" mktoname="Event Name BG" default="#fff" />
+    <meta class="mktoString" id="eventNametopPadding" mktoname="Event Name Top padding" default="3rem" />
+    <meta class="mktoString" id="eventNamebtmPadding" mktoname="Event Name Bottom padding" default="3rem" />
+    
+    <meta class="mktoBoolean" id="show1KeySpeaker" mktoName="Show 1 Key Speaker Section" default="true"
+        false_value="none !important" true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoColor" id="1KeySpeakerBG" mktoname="1 Key Speaker BG" default="#f3f3f3" />
+    <meta class="mktoString" id="1KeySpeakertopPadding" mktoname="1 Key Speaker Top padding" default="3rem" />
+    <meta class="mktoString" id="1KeySpeakerbtmPadding" mktoname="1 Key Speaker Bottom padding" default="3rem" />
+
+    
+    <meta class="mktoBoolean" id="show1FeatureSpeaker" mktoName="Show 1 Feature Speaker Section" default="false"
+        false_value="none !important" true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoColor" id="featurePresenterBG" mktoname="feature Presenter BG" default="#5486d0" />
+    <meta class="mktoString" id="1FeatureSpeakertopPadding" mktoname="1 Feature Speaker Top padding" default="3rem" />
+    <meta class="mktoString" id="1FeatureSpeakerbtmPadding" mktoname="1 Feature Speaker Bottom padding" default="3rem" />
+
+    <meta class="mktoBoolean" id="show2FeatureSpeaker" mktoName="Show 2 Feature Speaker Section" default="false"
+        false_value="none !important" true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoColor" id="keyspeaker2BG" mktoname="2 Key Speaker BG" default="#000" />
+    <meta class="mktoString" id="2KeySpeakertopPadding" mktoname="2 Key Speaker Top padding" default="3rem" />
+    <meta class="mktoString" id="2KeySpeakerbtmPadding" mktoname="2 Key Speaker Bottom padding" default="3rem" />
+
+    <meta class="mktoBoolean" id="show3FeatureSpeaker" mktoName="Show 3 Feature Speaker Section" default="false"
+        false_value="none !important" true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoString" id="3SpeakerBGImg" mktoname="3 Speaker BG Image"
+        default="https://info.couchbase.com/rs/302-GJY-034/images/LPSpeakerBG.png" />
+    <meta class="mktoString" id="3KeySpeakertopPadding" mktoname="3 Key Speaker Top padding" default="3rem" />
+    <meta class="mktoString" id="3KeySpeakerbtmPadding" mktoname="3 Key Speaker Bottom padding" default="3rem" />
+
+    <meta class="mktoBoolean" id="show4FeatureSpeaker" mktoName="Show 4 Feature Speaker Section" default="false"
+        false_value="none !important" true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoColor" id="keyspeaker4BG" mktoname="4 Key Speaker BG" default="#fc9c0c" />
+    <meta class="mktoString" id="4KeySpeakertopPadding" mktoname="4 Key Speaker Top padding" default="3rem" />
+    <meta class="mktoString" id="4KeySpeakerbtmPadding" mktoname="4 Key Speaker Bottom padding" default="3rem" />
+
+    <meta class="mktoBoolean" id="showJoinUs" mktoName="Show Join Us Section" default="false"
+        false_value="none !important" true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoColor" id="joinUsHeaderBG" mktoname="Join Us Header BG" default="#5486d0" />
+    <meta class="mktoColor" id="joinUsBG" mktoname="Join Us Section BG" default="#f3f3f3" />
+    <meta class="mktoString" id="joinUstopPadding" mktoname="Join Us Top padding" default="3rem" />
+    <meta class="mktoString" id="joinUsbtmPadding" mktoname="Join Us Bottom padding" default="3rem" />
+
+    <meta class="mktoBoolean" id="showAgenda" mktoName="Show Agenda Section" default="false"
+        false_value="none !important" true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoColor" id="AgendaBG" mktoname="Agenda Section BG" default="#fff" />
+    <meta class="mktoBoolean" id="showAgenda1" mktoName="Show Agenda Line 1" default="false"
+        false_value="none !important" true_value="flex" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoBoolean" id="showAgenda2" mktoName="Show Agenda Line 2" default="false"
+        false_value="none !important" true_value="flex" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoBoolean" id="showAgenda3" mktoName="Show Agenda Line 3" default="false"
+        false_value="none !important" true_value="flex" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoBoolean" id="showAgenda4" mktoName="Show Agenda Line 4" default="false"
+        false_value="none !important" true_value="flex" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoBoolean" id="showAgenda5" mktoName="Show Agenda Line 5" default="false"
+        false_value="none !important" true_value="flex" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoBoolean" id="showAgenda6" mktoName="Show Agenda Line 6" default="false"
+        false_value="none !important" true_value="flex" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoString" id="AgendatopPadding" mktoname="Agenda Top padding" default="3rem" />
+    <meta class="mktoString" id="AgendabtmPadding" mktoname="Agenda Bottom padding" default="3rem" />
+
+    <meta class="mktoBoolean" id="showVidMod" mktoName="Show Video Section" default="false" false_value="none !important"
+        true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoString" id="vidURL" mktoname="Video Emb Link"
+        default="https://www.youtube.com/embed/c4sVO76nvxw" />
+        <meta class="mktoString" id="vidModtopPadding" mktoname="Video Module Top padding" default="3rem" />
+        <meta class="mktoString" id="vidModbtmPadding" mktoname="Video Module Bottom padding" default="3rem" />
+
+        
+    <meta class="mktoBoolean" id="show2ndCTA" mktoName="Show 2nd CTA Section" default="true"
+        false_value="none !important" true_value="block" false_value_name="NO" true_value_name="YES">
+    <meta class="mktoColor" id="CTA2ndBG" mktoname="2nd CTA BG" default="#ea2328" />
+    <meta class="mktoString" id="2ndCTAText" mktoname="2nd CTA Text" default="Contact Us" />
+    <meta class="mktoString" id="2ndCTALink" mktoname="2nd CTA Link" default="https://www.couchbase.com/" />
+    <meta class="mktoString" id="cta2topPadding" mktoname="Second CTA Top padding" default="3rem" />
+    <meta class="mktoString" id="cta2btmPadding" mktoname="Second CTA Bottom padding" default="3rem" />
+
+    <meta class="mktoBoolean" id="show3rdCTA" mktoName="Show 3rd CTA Section" default="true"
+        false_value="none !important" true_value="block" false_value_name="NO" true_value_name="YES">
+        <meta class="mktoString" id="3rdCTAText" mktoname="3rd CTA Text" default="Contact Us" />
+        <meta class="mktoString" id="3rdCTALink" mktoname="3rd CTA Link" default="https://www.couchbase.com/" />
+        <meta class="mktoString" id="cta3topPadding" mktoname="3rd CTA Top padding" default="3rem" />
+        <meta class="mktoString" id="cta3btmPadding" mktoname="3rd CTA Bottom padding" default="3rem" />
+
+    <meta class="mktoBoolean" id="footer" mktoName="Show Footer" default="true" false_value="none !important"
+        true_value="block" false_value_name="NO" true_value_name="YES">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couchbase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+    </script>
+    <!-- OneTrust Cookies Consent Notice start -->
+
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8"
+        data-domain-script="748511ff-10bf-44bf-88b8-36382e5b5fd9"></script>
+    <script type="text/javascript">
+        function OptanonWrapper() {}
+    </script>
+    <!-- OneTrust Cookies Consent Notice end -->
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MVPNN2" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MVPNN2');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .white-text,
+    .white-text h1,
+    .white-text h2,
+    .white-text h3,
+    .white-text h4,
+    .white-text h5,
+    .white-text h6,
+    .white-text p,
+    .white-text a {
+        color: #ffffff;
+    }
+
+    .section {
+        margin-bottom: 20px;
+    }
+
+    .blueBG {
+        background-color: #5486d0;
+    }
+
+    .blackBG {
+        background-color: #000000;
+    }
+
+    .grayBG {
+        background-color: #f3f3f3;
+    }
+
+    .orangeBG {
+        background-color: #fc9c0c;
+    }
+
+    .redBG {
+        background-color: #ea2328;
+    }
+
+    .gradientBG {
+        background: rgb(252, 156, 12);
+        background: linear-gradient(162deg, rgba(252, 156, 12, 1) 33%, rgba(234, 79, 110, 1) 66%);
+    }
+
+    .hero .row {
+        min-height: 530px;
+    }
+
+    .hero {
+        background-image: url("${HeroBGImg}");
+        background-color: #fc9c0c;
+        background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        /* Resize the background image to cover the entire container */
+    }
+
+    .hero h1 {
+        font-size: 64px;
+        font-weight: 700;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .eventInfo h2,
+    .EventInfo2 h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .keySpeaker3 {
+        background-image: url("${3SpeakerBGImg}");
+        background-color: #000000;
+        background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        /* Resize the background image to cover the entire container */
+    }
+
+    .countdownWrapper p {
+        color: #ffffff;
+        margin: 0 10px;
+        width: 115px;
+        font-size: 60px;
+        background-color: #000000;
+        background: #000000;
+    }
+
+    .countdownWrapper h4 {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .btn {
+        border-radius: 0;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .btn-primary {
+        color: ${primaryCTAColor};
+        background-color: ${primaryCTABG};
+        border-color: ${primaryCTABG};
+    }
+
+    .btn-primary:hover {
+        color: ${primaryCTAColor};
+        background-color: rgba(0, 0, 0, .7);
+        border-color: rgba(0, 0, 0, .7);
+    }
+
+    .btn-secondary {
+        color: ${secondaryCTAColor} !important;
+        background-color: ${secondaryCTABG} !important;
+        border-color: ${secondaryCTABG} !important;
+    }
+
+    .mktoForm .mktoRequiredField .mktoAsterix,
+    .mktoOffset {
+        display: none !important;
+    }
+
+    .mktoForm {
+        margin: auto !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    .mktoForm, 
+    .mktoForm input[type=text], 
+    .mktoForm input[type=url], 
+    .mktoForm input[type=email], 
+    .mktoForm input[type=tel], 
+    .mktoForm input[type=number], 
+    .mktoForm input[type=date], 
+    .mktoForm textarea.mktoField, 
+    .mktoForm select.mktoField, 
+    .mktoFieldWrap.mktoRequiredField,
+    .mktoFieldDescriptor.mktoFormCol {
+        width: 100% !important;
+    }
+
+    .mktoForm .mktoGutter,
+    .mktoForm label {
+        width: 0 !important;
+    }
+
+    .mktoButtonWrap.mktoSimple {
+        margin-left: initial !important;
+    }
+
+    .mktoButtonRow {
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .mktoForm input[type=text],
+    .mktoForm input[type=url],
+    .mktoForm input[type=email],
+    .mktoForm input[type=tel],
+    .mktoForm input[type=number],
+    .mktoForm input[type=date],
+    .mktoForm textarea.mktoField,
+    .mktoForm select.mktoField {
+        padding: 12px 13px !important;
+        border-width: 0px;
+        border: none;
+    }
+
+    .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+        border: none !important;
+        font-size: 18px;
+        background: #000000 !important;
+        background-color: #000000 !important;
+        padding: 10px 30px !important;
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        .countdown {
+            flex-direction: column;
+        }
+
+        .agendalist>div {
+            flex-direction: column;
+        }
+    }
+</style>
+
+<body>
+    <header class="my-4">
+        <navbar class="h4" style="display:${showNav}">
+            <a href="/" class="d-flex align-items-center justify-content-center">
+                <img src="https://info.couchbase.com/rs/302-GJY-034/images/EmailLogo.png">
+            </a>
+        </navbar>
+    </header>
+
+    <div class="section hero" style="display:${showHero}">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7 py-5 px-3">
+                    <div class="mktoText" id="heroEyebrow" mktoName="Hero Eyebrow Text">
+                        <h2>EUISMOD EYEBROW COPY HERE</h2>
+                    </div>
+                    <div class="px-0 mktoText" id="HeroText" mktoName="Hero Text">
+                        <h1 class="lead">Lorem Ipsum Dolor Amet Consetur</h1>
+                    </div>
+                    <a href="${heroCTALink}" class="btn btn-primary mr-3">${heroCTAText}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Body Info With Form module -->
+    <div class="main-content my-5 section" style="display:${showMain}">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-8 pr-md-5 mktoText" id="Main" mktoName="Main Body Text">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis et
+                        quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
+                        sequi
+                        nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                        velit,
+                        sed quia non
+
+                        Lorem ipsum dolor sit amet:
+                        <ul>
+                            <li>
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim
+                                id est laborum. Sed ut perspiciatis unde.
+                            </li>
+                            <li>
+                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                            </li>
+                            <li>
+                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.
+                            </li>
+                            <li>
+                                Numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                                voluptatem.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="form-container d-flex align-content-center col-md-4" style="background-color: ${formBG};">
+                    <div class="mktoForm" id="Form" mktoName="Form"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Main Body Info Full Width module -->
+        <div class="main-content my-5 section" style="display:${showMainFW}">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-12 mktoText" id="MainFW" mktoName="Main Body Text">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem
+                            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                            veritatis et
+                            quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
+                            sequi
+                            nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                            velit,
+                            sed quia non
+    
+                            Lorem ipsum dolor sit amet:
+                            <ul>
+                                <li>
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                    mollit anim
+                                    id est laborum. Sed ut perspiciatis unde.
+                                </li>
+                                <li>
+                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                                </li>
+                                <li>
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.
+                                </li>
+                                <li>
+                                    Numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                                    voluptatem.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Event Info module -->
+    <div class="eventInfo section" style="display:${showCountdown}; background-color: ${eventBG}; padding-top:${CountdowntopPadding}; padding-bottom:${CountdownbtmPadding};">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="text-center white-text col-md-12 ">
+                    <div class="mktoText my-3" id="eventInfoHeader" mktoName="eventInfoHeader">
+                        <h2>This event will begin in</h2>
+                    </div>
+                    <div class="d-flex my-3 justify-content-center">
+                        <div class="col-md-4">
+                            <div class="d-flex justify-content-around countdown">
+                                <div class="countdownWrapper">
+                                    <p id="countdownDays"></p>
+                                    <h4 class="mt-3">Days</h4>
+                                </div>
+                                <div class="countdownWrapper">
+                                    <p id="countdownHours"></p>
+                                    <h4 class="mt-3">Hours</h4>
+                                </div>
+                                <div class="countdownWrapper">
+                                    <p id="countdownMins"></p>
+                                    <h4 class="mt-3">Minutes</h4>
+                                </div>
+                                <div class="countdownWrapper">
+                                    <p id="countdownSecs"></p>
+                                    <h4 class="mt-3">Seconds</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="${CountdownCTALink}" class="btn my-3 btn-primary"
+                        style="display:${showCountdownCTA}">${CountdownCTAText}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Event Info 2 module -->
+    <div class="EventInfo2 section container" style="display:${showEventName};background-color: ${event2BG}; padding-top:${eventNametopPadding}; padding-bottom:${eventNamebtmPadding};">
+        <div class="row align-items-center">
+            <div class="text-center col-md-12">
+                <h2>Event Name 2021</h2>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <img class="mktoImg img-fluid" id="EventInfo2LeftImg" mktoName="Event Info 2 Left Image"
+                        src="https://info.couchbase.com/rs/302-GJY-034/images/LPEventIcon1.png" />
+                    <div class="text-center justify-content-center mktoText" id="EventInfo2Left"
+                        mktoName="Event Info 2 Left Text">
+                        <p id="countdownDays"></p>
+                        <h4>Thursday, March 11, 2021</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <img class="mktoImg img-fluid" id="EventInfo2MidImg" mktoName="Event Info 2 Middle Image"
+                        src="https://info.couchbase.com/rs/302-GJY-034/images/LPEventIcon2.png" />
+                    <div class="text-center justify-content-center mktoText" id="EventInfo2middle"
+                        mktoName="Event Info 2 Mid Text">
+                        <p id="countdownHours"></p>
+                        <h4>1 PM PT / 4 PM ET</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <img class="mktoImg img-fluid" id="EventInfo2RightImg" mktoName="Event Info 2 Right Image"
+                        src="https://info.couchbase.com/rs/302-GJY-034/images/LPEventIcon3.png" />
+                    <div class="text-center justify-content-center mktoText" id="EventInfo2Right"
+                        mktoName="Event Info 2 Left Text">
+                        <p id="countdownMins"></p>
+                        <h4>Location</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 1 Key Speaker module -->
+    <div class="1KeySpeaker section" style="display:${show1KeySpeaker};background-color: ${1KeySpeakerBG}; padding-top:${1KeySpeakertopPadding}; padding-bottom:${1KeySpeakerbtmPadding};">
+        <div class="container ">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div class="mktoText" id="keySpeakerHeader" mktoName="1 Key Speaker Header">
+                        <h2>Speakers</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-3 justify-content-center">
+                        <img class="mktoImg  mb-3 img-fluid rounded-circle" id="KeySpeaker1Img" mktoName="1 Key Speaker Image"
+                            src="https://via.placeholder.com/325" />
+                    </div>
+                    <div class="col-md-9 text-left justify-content-center">
+                        <div class="mktoText" id="keySpeakerCopy" mktoName="1 Key Speaker Copy">
+                            <p><span style="color:#5486d0; font-size:24px;">Speaker Name<br></span>
+                                <span style="color:#000000; font-size:20px;">Title | Company Name<br></span>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured Presenter module -->
+    <div class="featurePresenter white-text section" style="display:${show1FeatureSpeaker};background-color: ${featurePresenterBG}; padding-top:${1FeatureSpeakertopPadding}; padding-bottom:${1FeatureSpeakerbtmPadding};">
+        <div class="container align-items-center">
+            <div class="col-md-12 text-center">
+                <div class="mktoText" id="featurePresenterHeader" mktoName="Feature Presenter Header">
+                    <h2>Feature Presenter</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <img class="mktoImg  mb-3 img-fluid rounded-circle" id="featurePresenterImg"
+                        mktoName="Feature Presenter Image" src="https://via.placeholder.com/220" />
+                </div>
+                <div class="col-md-12 text-center justify-content-center">
+                    <div class="mktoText" id="featurePresenterCopy" mktoName="Feature Presenter Copy">
+                        <p><span style="font-size:30px; font-weight: 700;">Speaker Name<br></span>
+                            <span style="font-size:24px;">Title | Company Name<br></span>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2 Key Speaker module -->
+    <div class="keySpeaker2 white-text section" style="display:${show2FeatureSpeaker};background-color: ${keyspeaker2BG}; padding-top:${2KeySpeakertopPadding}; padding-bottom:${2KeySpeakerbtmPadding};">
+        <div class="container align-items-center">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <img class="mktoImg  mb-3 img-fluid rounded-circle" id="keySpeaker2Img1"
+                        mktoName="2 Key Speaker Left Image" style="max-width:260px;"
+                        src="https://via.placeholder.com/260" />
+                    <div class="mktoText text-center" id="keySpeaker2Copy1" mktoName="2 Key Speaker Left Copy">
+                        <p><span style="font-size:24px;">Key Speaker Name<br></span>
+                            <span style="font-size:18px;">Speaker Title<br> Company Name<br>
+                                <a href="#">Learn More></a></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <img class="mktoImg  mb-3 img-fluid rounded-circle" id="keySpeaker2Img2"
+                        mktoName="2 Key Speaker Right Image" src="https://via.placeholder.com/260"
+                        style="max-width:260px;" />
+                    <div class="mktoText text-center" id="keySpeaker2Copy2" mktoName="2 Key Speaker Right Copy">
+                        <p><span style="font-size:24px;">Key Speaker Name<br></span>
+                            <span style="font-size:18px;">Speaker Title<br> Company Name<br>
+                                <a href="#">Learn More></a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3 Key Speaker module -->
+    <div class="keySpeaker3 white-text" style="display:${show3FeatureSpeaker}; padding-top:${3KeySpeakertopPadding}; padding-bottom:${3KeySpeakerbtmPadding};">
+        <div class="container align-items-center">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4 d-inline-flex flex-wrap justify-content-center">
+                    <img class="mktoImg  mb-3 img-fluid rounded-circle" id="keySpeaker3Img1"
+                        mktoName="3 Key Speaker Left Image" src="https://via.placeholder.com/260" />
+                    <div class="mktoText text-center" id="keySpeaker3Copy1" mktoName="3 Key Speaker Left Copy">
+                        <p><span style="font-size:24px;">Key Speaker Name<br></span>
+                            <span style="font-size:18px;">Speaker Title<br> Company Name<br>
+                                <a href="#">Learn More></a></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-inline-flex flex-wrap justify-content-center">
+                    <img class="mktoImg  mb-3 img-fluid rounded-circle" id="keySpeaker3Img2"
+                        mktoName="3 Key Speaker Middle Image" src="https://via.placeholder.com/260" />
+                    <div class="mktoText text-center" id="keySpeaker3Copy2" mktoName="3 Key Speaker Middle Copy">
+                        <p><span style="font-size:24px;">Key Speaker Name<br></span>
+                            <span style="font-size:18px;">Speaker Title<br> Company Name<br>
+                                <a href="#">Learn More></a></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-inline-flex flex-wrap justify-content-center">
+                    <img class="mktoImg  mb-3 img-fluid rounded-circle" id="keySpeaker3Img3"
+                        mktoName="3 Key Speaker Right Image" src="https://via.placeholder.com/260" />
+                    <div class="mktoText text-center" id="keySpeaker3Copy3" mktoName="3 Key Speaker Right Copy">
+                        <p><span style="font-size:24px;">Key Speaker Name<br></span>
+                            <span style="font-size:18px;">Speaker Title<br> Company Name<br>
+                                <a href="#">Learn More></a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4 Key Speaker module -->
+    <div class="keySpeaker4 white-text" style="display:${show4FeatureSpeaker}; background-color: ${keyspeaker4BG}; padding-top:${4KeySpeakertopPadding}; padding-bottom:${4KeySpeakerbtmPadding};">
+        <div class="container align-items-center">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-3 d-inline-flex flex-wrap justify-content-center">
+                    <img class="mktoImg  mb-3 img-fluid rounded-circle" id="keySpeaker4Img1" mktoName="4 Key Speaker 1 Image"
+                        src="https://via.placeholder.com/180" />
+                    <div class="mktoText text-center" id="keySpeaker4Copy1" mktoName="4 Key Speaker 1 Copy">
+                        <p><span style="font-size:22px;">Key Speaker Name<br></span>
+                            <span style="font-size:16px;">Speaker Title<br> Company Name<br>
+                                <a href="#">Learn More></a></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 d-inline-flex flex-wrap justify-content-center">
+                    <img class="mktoImg  mb-3 img-fluid rounded-circle" id="keySpeaker4Img2" mktoName="4 Key Speaker 2 Image"
+                        src="https://via.placeholder.com/180" />
+                    <div class="mktoText text-center" id="keySpeaker4Copy2" mktoName="4 Key Speaker 2 Copy">
+                        <p><span style="font-size:22px;">Key Speaker Name<br></span>
+                            <span style="font-size:16px;">Speaker Title<br> Company Name<br>
+                                <a href="#">Learn More></a></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 d-inline-flex flex-wrap justify-content-center">
+                    <img class="mktoImg  mb-3 img-fluid rounded-circle" id="keySpeaker4Img3" mktoName="4 Key Speaker 3 Image"
+                        src="https://via.placeholder.com/180" />
+                    <div class="mktoText text-center" id="keySpeaker4Copy3" mktoName="2 Key Speaker 3 Copy">
+                        <p><span style="font-size:22px;">Key Speaker Name<br></span>
+                            <span style="font-size:16px;">Speaker Title<br> Company Name<br>
+                                <a href="#">Learn More></a></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-inline-flex flex-wrap justify-content-center">
+                    <img class="mktoImg  mb-3 img-fluid rounded-circle" id="keySpeaker4Img4" mktoName="4 Key Speaker 4 Image"
+                        src="https://via.placeholder.com/180" />
+                    <div class="mktoText text-center" id="keySpeaker4Copy4" mktoName="2 Key Speaker 4 Copy">
+                        <p><span style="font-size:22px;">Key Speaker Name<br></span>
+                            <span style="font-size:16px;">Speaker Title<br> Company Name<br>
+                                <a href="#">Learn More></a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Module - Join Us module -->
+    <div class="JoinUs white-text py-3 align-items-center" style="display:${showJoinUs};background-color: ${joinUsHeaderBG};">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="mktoText" id="JoinUsHeader" mktoName="Join Us Header">
+                        <h2><span style="font-size:40;"><strong>Join Us</strong></span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="JoinUs grayBG align-items-center" style="display:${showJoinUs}; background-color: ${joinUsBG}; padding-top:${joinUstopPadding}; padding-bottom:${joinUsbtmPadding};">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12 text-center justify-content-center">
+                    <div class="mktoText" id="JoinUsCopy" mktoName="Join Us Copy">
+                        <p><span style="font-size:36px; font-weight: 700;">This free day-long educational event will
+                                feature a
+                                combination of hands-on workshops and presentations on Couchbase Server.<br></span>
+                            <span style="font-size:19px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                tristique pretium metus bibendum scelerisque. Vivamus dapibus leo non erat tincidunt,
+                                nec
+                                hendrerit.<br></span>
+                            <ul>
+                                <li>
+                                    Understanding distributed database architecture
+                                </li>
+                                <li>
+                                    Scaling a distributed database and replicating data across multiple data centers
+                                </li>
+                                <li>
+                                    Querying Couchbase Server
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Module- Agenda module -->
+    <div class="container" style="display:${showAgenda};background-color: ${AgendaBG}; padding-top:${AgendatopPadding}; padding-bottom:${AgendabtmPadding};">
+        <div class="agenda row align-items-center">
+            <div class="col-md-12 text-center">
+                <div class="mktoText" id="agendaHeader" mktoName="Agenda Header">
+                    <h2><span style="font-size:40;"><strong>Agenda</strong></span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="agendalist row align-items-center">
+            <div class="offset-md-1 col-md-10 d-flex py-3 grayBG justify-content-center" style="display:${showAgenda1}">
+                <div class="col-md-2 text-left justify-content-end">
+                    <div class="mktoText" id="agendalist1Left" mktoName="agendalist Left Copy">
+                        <p><span style="font-size:22px; font-weight: 700;">8:30AM</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8 text-left justify-content-start">
+                    <div class="mktoText" id="agendalist1Right" mktoName="agendalist Left Copy">
+                        <p><span style="font-size:22px;">Registration and Lab Setup*</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-md-1 col-md-10 d-flex py-3 justify-content-center" style="display:${showAgenda2}">
+                <div class="col-md-2 text-left justify-content-end">
+                    <div class="mktoText" id="agendalist2Left" mktoName="agendalist Left Copy">
+                        <p><span style="font-size:22px;font-weight: 700;">9AM</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8 text-left justify-content-start">
+                    <div class="mktoText" id="agendalist2Right" mktoName="agendalist Left Copy">
+                        <p><span style="font-size:22px;">Introduction to NoSQL and Couchbase</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-md-1 col-md-10 d-flex py-3 grayBG justify-content-center" style="display:${showAgenda3}">
+                <div class="col-md-2 text-left justify-content-end">
+                    <div class="mktoText" id="agendalist3Left" mktoName="agendalist Left Copy">
+                        <p><span style="font-size:22px; font-weight: 700;">9:30AM</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8 text-left justify-content-start">
+                    <div class="mktoText" id="agendalist3Right" mktoName="agendalist Left Copy">
+                        <p><span style="font-size:22px;">Couchbase Architecture - How Things Work
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-md-1 col-md-10 d-flex py-3 justify-content-center" style="display:${showAgenda4}">
+                <div class="col-md-2 text-left justify-content-end">
+                    <div class="mktoText" id="agendalist4Left" mktoName="agendalist Left Copy">
+                        <p><span style="font-size:22px;font-weight: 700;">10AM</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8 text-left justify-content-start">
+                    <div class="mktoText" id="agendalist4Right" mktoName="agendalist Left Copy">
+                        <p><span style="font-size:22px;">Break</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-md-1 col-md-10 d-flex py-3 grayBG justify-content-center" style="display:${showAgenda5}">
+                <div class="col-md-2 text-left justify-content-end">
+                    <div class="mktoText" id="agendalist5Left" mktoName="agendalist Left Copy">
+                        <p><span style="font-size:22px; font-weight: 700;">10:45AM</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8 text-left justify-content-start">
+                    <div class="mktoText" id="agendalist5Right" mktoName="agendalist Left Copy">
+                        <p><span style="font-size:22px;">High Availability and Disaster Recovery</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="offset-md-1 col-md-10 d-flex py-3 justify-content-center" style="display:${showAgenda6}">
+                <div class="col-md-2 text-left justify-content-end">
+                    <div class="mktoText" id="agendalist6Left" mktoName="agendalist Left Copy">
+                        <p><span style="font-size:22px;font-weight: 700;">12AM</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8 text-left justify-content-start">
+                    <div class="mktoText" id="agendalist6Right" mktoName="agendalist Left Copy">
+                        <p><span style="font-size:22px;">Lunch</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Module with full width video -->
+    <div class="videosection section grayBG" style="display:${showVidMod}; padding-top:${vidModtopPadding}; padding-bottom:${vidModbtmPadding};">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 justify-content-center">
+                    <style>
+                        .embed-container {
+                            position: relative;
+                            padding-bottom: 56.25%;
+                            height: 0;
+                            overflow: hidden;
+                            max-width: 100%;
+                        }
+
+                        .embed-container iframe,
+                        .embed-container object,
+                        .embed-container embed {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    </style>
+                    <div class='embed-container'><iframe src='${vidURL}' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-8 text-center justify-content-center">
+                    <div class="mktoText" id="videosectionCopy" mktoName="Video Section Copy">
+                        <p><span style="font-size:24px; font-weight: 700;">Integer posuere erat a ante<br></span>
+                            <span style="font-size:18px;">Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+                                venenatis
+                                vestibulum. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a
+                                pharetra augue. Duis mollis, est non commodo luctus, nisi erat.<br></span>
+                            <a href="https://www.couchbase.com/">Read More></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2nd CTA module -->
+    <div class="CTA2nd redBG section" style="display:${show2ndCTA};background-color: ${CTA2ndBG}; padding-top:${cta2topPadding}; padding-bottom:${cta2btmPadding};">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-10 text-center white-text justify-content-center">
+                    <div class="mktoText" id="CTA2ndCopy" mktoName="2nd CTA Copy">
+                        <p><span style="font-size:34px; font-weight: 700;">Sign up for some secondary offer here</span>
+                        </p>
+                    </div>
+                    <a href="${2ndCTALink}" class="btn btn-secondary mr-3">${2ndCTAText}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3rd CTA module -->
+    <div class="CTA3rd section gradientBG" style="display:${show3rdCTA}; padding-top:${cta3topPadding}; padding-bottom:${cta3btmPadding};">
+        <div class="container align-items-center">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-8 d-flex text-center white-text justify-content-center">
+                    <div class="mktoText" id="CTA3rdCopy" mktoName="2nd CTA Copy">
+                        <p><span style="font-size:34px; font-weight: 700;">Sign up for some secondary offer here</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex text-center white-text justify-content-center">
+                    <a href="${3rdCTALink}" class="btn btn-secondary mr-3">${3rdCTAText}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer py-2 blackBG" style="display:${footer}">
+        <div class="container align-items-center">
+            <div class="row justify-content-center align-items-center">
+                <a href="/" class="d-flex py-3 align-items-center justify-content-center">
+                    <img class="img-fluid" src="https://info.couchbase.com/rs/302-GJY-034/images/LPFooterLogo.png">
+                </a>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12 py-2 d-flex text-center white-text justify-content-center">
+                    <div class="mktoText" id="footerCopy" mktoName="Video Section Copy">
+                        <p><span style="font-size:18px; font-weight: 300;"><a href="#">Unsubscribe</a> | <a
+                                    href="#">Privacy Policy</a> | <a href="#">Terms of Use</a><br>
+                                &copy;2021 Couchbase<br>
+                                Couchbase | 3250 Olcott Street | Santa Clara, CA 95054 | United States</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12 py-2 d-flex footersocial justify-content-center">
+                    <a href="https://www.facebook.com/Couchbase/" class="d-flex px-2 align-items-center justify-content-center">
+                        <img src="https://info.couchbase.com/rs/302-GJY-034/images/LPFBicon.png">
+                    </a>
+                    <a href="https://twitter.com/couchbase" class="d-flex px-2 align-items-center justify-content-center">
+                        <img src="https://info.couchbase.com/rs/302-GJY-034/images/LPTwittericon.png">
+                    </a>
+                    <a href="https://www.linkedin.com/company/couchbase" class="d-flex px-2 align-items-center justify-content-center">
+                        <img src="https://info.couchbase.com/rs/302-GJY-034/images/LPLinkedInicon.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script type="module" src="assets/js/starter.js"></script>
+    <script>
+        // Countdown Timer
+        var countDownDate = new Date("${CountdownTimer}").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with countdown
+            document.getElementById("countdownDays").innerHTML = days;
+            document.getElementById("countdownHours").innerHTML = hours;
+            document.getElementById("countdownMins").innerHTML = minutes;
+            document.getElementById("countdownSecs").innerHTML = seconds;
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+<!--Requested Snippet-->
+<div class="mktoSnippet" id="Snippet" mktoName=" External Codes Snippet"></div>
+</body>
+
+</html>
