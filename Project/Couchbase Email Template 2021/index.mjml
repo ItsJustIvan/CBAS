@@ -1,0 +1,396 @@
+<mjml>
+  <mj-body background-color="#ffffff">
+    <mj-section padding-bottom="20px" padding-top="20">
+    </mj-section>
+        <!--2 Logo Header -->
+    <mj-section css-class="mktoModule 2_logo_header" background-color="#ffffff" padding-bottom="20px" padding-top="20">
+      <mj-column width="50%" vertical-align="top" border-right="solid 2px #000">
+        <mj-image href="https://www.couchbase.com/" src="https://info.couchbase.com/rs/302-GJY-034/images/EmailLogo.png" alt="Couchbase logo" align="right" border="none" width="182px" padding-left="0px" padding-right="20px" padding-bottom="0px" padding-top="0"></mj-image>
+      </mj-column>
+      <mj-column width="50%" vertical-align="top">
+        <mj-image href="https://www.couchbase.com/" src="https://info.couchbase.com/rs/302-GJY-034/images/EmailLogo.png" alt="Couchbase logo" align="left" border="none" width="182px" padding-left="20px" padding-right="0px" padding-bottom="0px" padding-top="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- Logo Header -->
+    <mj-section css-class="mktoModule logo_header" background-color="#ffffff" padding-bottom="20px" padding-top="20">
+      <mj-column width="100%" vertical-align="top">
+        <mj-image href="https://www.couchbase.com/" src="https://info.couchbase.com/rs/302-GJY-034/images/EmailLogo.png" alt="Couchbase logo" align="center" border="none" width="182px" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- Hero Banner -->
+    <mj-section css-class="mktoModule hero_banner" background-color="#ffffff" background-url="https://info.couchbase.com/rs/302-GJY-034/images/HeroBG.png" background-size="cover" background-repeat="no-repeat" padding-bottom="27px" padding-top="0">
+      <mj-column width="100%" vertical-align="top">
+        <mj-text align="left" color="#000000;" font-family="'Montserrat', sans-serif" font-size="15px" padding-left="50px" padding-right="50px" padding-beventottom="0px" padding-top="50px">
+          <p><span style="font-size: 17px;"><a href="https://www.couchbase.com/" style="text-decoration: none; color: inherit;"><span style="font-weight: bold;"><span style="color: #000000;">EUISMOD EYEBROW COPY HERE</span></span></a></span>
+          </p>
+          <p><span style="font-size: 45px;"><a href="https://www.couchbase.com/" style="text-decoration: none; color: inherit;"><span style="font-weight: bold;"><span style="color: #000000;">Lorem Ipsum Dolor Amet Consetur</span></span>
+            </span>
+          </p>
+        </mj-text>
+        <mj-button background-color="#000000" color="#FFFFFF" font-size="12px" font-weight="700" align="left" vertical-align="middle" border="none" padding="15px 30px" border-radius="0px" href="https://www.couchbase.com/" font-family="'Montserrat', sans-serif" padding-left="50px" padding-right="50px" padding-bottom="32px" padding-top="35">Call to Action</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Main Body -->
+    <mj-section css-class="mktoModule main_body" direction="rtl" background-color="#ffffff" background-url="https://info.couchbase.com/rs/302-GJY-034/images/BodyBG.png" background-size="cover" background-repeat="no-repeat" padding-bottom="0px" padding-top="20">
+      <mj-column width="33.33333333333333%" vertical-align="top">
+        <mj-image href="https://www.couchbase.com/" src="https://via.placeholder.com/168x162" alt="Image" align="center" border="none" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0"></mj-image>
+      </mj-column>
+      <mj-column width="66.66666666666666%" vertical-align="top">
+        <mj-text align="left" color="#000000" font-family="'Montserrat', sans-serif" font-size="22px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <h3><span style="#000000;"><span style="font-weight: bold;"><span style="font-size: 22px;">Integer posuere erat a ante venenatis dapibus posuere.</span></span>
+            </span>
+          </h3>
+        </mj-text>
+        <mj-text align="justify" color="#000000" font-family="'Montserrat', sans-serif" font-size="15px" line-height="22px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p><span style="color: #000000;">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras cnibh mattis consectetur purus sit amet fermentum fermentum.lacinia quam venenatis vestibu. Cras mattis consectetur purus sit amet. fermentum. </span></p>
+        </mj-text>
+      </mj-column>
+      <mj-section padding-bottom="20px" padding-top="0">
+        <mj-column width="100%" vertical-align="top">
+          <mj-text align="left" color="#000000" font-family="'Montserrat', sans-serif" font-size="15px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          </mj-text>
+          <mj-text align="justify" color="#000000" font-family="'Montserrat', sans-serif" font-size="15px" line-height="22px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+            <p><span style="color: #000000;">
+                <ul style=" padding-inline-start:25px; line-height:44px; ">
+                  <li>Vestibulum id ligula porta felis euismod</li>
+                  <li>Nullam id dolor id nibh ultricies vehicula ut id elit.</li>
+                  <li>Cras mattis consectetur purus sit amet fermentum.</li>
+                </ul> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo id elit non mi porta gravida at eget metus.
+              </span></p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-section>
+    <!-- Event Name -->
+    <mj-section css-class="mktoModule sectionTitle">
+      <mj-column vertical-align="top">
+        <mj-text align="center" color="#000000" font-family="'Montserrat', sans-serif" font-size="22px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0px">
+          <h3 style="margin-block-start: 0; margin-block-end: 0;"><span style="#000000;"><span style=""><span style="font-size: 22px;">Event Name</span></span>
+            </span>
+          </h3>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="mktoModule eventName" background-color="#5486d0" padding-bottom="20px" padding-top="20">
+      <mj-column width="33.33333333333333%" vertical-align="top" border-right="1px solid #ffffff">
+        <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/EventIcon1.png" alt="date" align="center" border="none" width="35px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10"></mj-image>
+        <mj-text align="center" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p><span style="color: #ffffff;"><span style="font-size: 16px;">March 11, 2021</span></span>
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="33.33333333333333%" vertical-align="top" border-right="1px solid #ffffff">
+        <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/EventIcon2.png" alt="date" align="center" border="none" width="35px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10"></mj-image>
+        <mj-text align="center" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p><span style="color: #ffffff;"><span style="font-size: 16px;">1PM PT / 4PM ET</span></span>
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="33.33333333333333%" vertical-align="top" border-right="1px solid #ffffff">
+        <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/EventIcon3.png" alt="date" align="center" border="none" width="35px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10"></mj-image>
+        <mj-text align="center" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p><span style="color: #ffffff;"><span style="font-size: 16px;">Location</span></span>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Module with text icons -->
+    <mj-section css-class="mktoModule sectionspacer">
+      <mj-column vertical-align="top">
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="mktoModule textIcons" background-color="#f3f3f3" padding-top="20">
+      <mj-section>
+        <mj-column width="33.33333333333333%" vertical-align="top">
+          <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/TextIcon1.png" alt="date" align="center" border="none" width="60px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10"></mj-image>
+          <mj-text align="center" color="#000000" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+            <p><span style="color: #000000;"><span style="font-size: 18px;">Lorem ipsum dolor</span></span>
+            </p>
+            <p><span style="color: #000000;"><span style="font-size: 15px; line-height:22px;">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.<br></br>
+                  <a href="https://www.couchbase.com/" style="color: #5486d0; text-decoration: none;">Read More</a></span></span>
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33.33333333333333%" vertical-align="top">
+          <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/TextIcon2.png" alt="date" align="center" border="none" width="60px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10"></mj-image>
+          <mj-text align="center" color="#000000" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+            <p><span style="color: #000000;"><span style="font-size: 18px;">Lorem ipsum dolor</span></span>
+            </p>
+            <p><span style="color: #000000;"><span style="font-size: 15px; line-height:22px;">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.<br></br>
+                  <a href="https://www.couchbase.com/" style="color: #5486d0; text-decoration: none;">Read More</a></span></span>
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33.33333333333333%" vertical-align="top">
+          <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/TextIcon3.png" alt="date" align="center" border="none" width="60px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10"></mj-image>
+          <mj-text align="center" color="#000000" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+            <p><span style="color: #000000;"><span style="font-size: 18px;">Lorem ipsum dolor</span></span>
+            </p>
+            <p><span style="color: #000000;"><span style="font-size: 15px; line-height:22px;">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.<br></br>
+                  <a href="https://www.couchbase.com/" style="color: #5486d0; text-decoration: none;">Read More</a></span></span>
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-section>
+          <mj-column>
+            <mj-button background-color="#000000" color="#FFFFFF" font-size="15px" align="center" vertical-align="middle" border="none" padding="15px 30px" border-radius="0px" href="https://www.couchbase.com/" font-family="'Montserrat', sans-serif" padding-left="50px" padding-right="50px">Call to Action</mj-button>
+          </mj-column>
+        </mj-section>
+      </mj-section>
+    </mj-section>
+    <!--Asset module grey-->
+    <mj-section css-class="mktoModule sectionspacer">
+      <mj-column vertical-align="top">
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="mktoModule assetGrey" background-color="#696969" padding-bottom="40px" padding-top="40">
+      <mj-column width="33.33333333333333%" vertical-align="top">
+        <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/SpeakerImg.png" alt="Speaker01" align="center" border="none" width="125px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10"></mj-image>
+      </mj-column>
+      <mj-column width="66.66666666666666%" vertical-align="top">
+        <mj-text align="left" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p><span style="color: #ffffff;"><span style="font-size: 18px;">Asset Name</span></span>
+          </p>
+          <p><span style="color: #ffffff;"><span style="font-size: 15px; line-height:22px;">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.<br></br>
+                <a href="https://www.couchbase.com/" style="color: #ffffff; text-decoration: none;">Read More ></a></span></span>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!--Asset module blue-->
+    <mj-section css-class="mktoModule sectionspacer">
+      <mj-column vertical-align="top">
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="mktoModule assetBlue" background-color="#5486d0" padding-bottom="40px" padding-top="40">
+      <mj-column width="33.33333333333333%" vertical-align="top">
+        <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/SpeakerImg.png" alt="Speaker01" align="center" border="none" width="125px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10"></mj-image>
+      </mj-column>
+      <mj-column width="66.66666666666666%" vertical-align="top">
+        <mj-text align="left" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p><span style="color: #ffffff;"><span style="font-size: 18px;">Asset Name</span></span>
+          </p>
+          <p><span style="color: #ffffff;"><span style="font-size: 15px; line-height:22px;">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.<br></br>
+                <a href="https://www.couchbase.com/" style="color: #ffffff; text-decoration: none;">Read More ></a></span></span>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!--Asset module Orange-->
+    <mj-section css-class="mktoModule sectionspacer">
+      <mj-column vertical-align="top">
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="mktoModule assetOj" background-color="#efa03b" padding-bottom="40px" padding-top="40">
+      <mj-column width="33.33333333333333%" vertical-align="top">
+        <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/SpeakerImg.png" alt="Speaker01" align="center" border="none" width="125px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10"></mj-image>
+      </mj-column>
+      <mj-column width="66.66666666666666%" vertical-align="top">
+        <mj-text align="left" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p><span style="color: #ffffff;"><span style="font-size: 18px;">Asset Name</span></span>
+          </p>
+          <p><span style="color: #ffffff;"><span style="font-size: 15px; line-height:22px;">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.<br></br>
+                <a href="https://www.couchbase.com/" style="color: #ffffff; text-decoration: none;">Read More ></a></span></span>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!--Two speaker module-->
+    <mj-section css-class="mktoModule sectionspacer">
+      <mj-column vertical-align="top">
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="mktoModule twoSpeaker" background-color="#efa03b" padding-bottom="40px" padding-top="40">
+      <mj-column width="50%" vertical-align="top">
+        <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/SpeakerImg.png" alt="Speaker01" align="center" border="none" width="125px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10"></mj-image>
+        <mj-text align="center" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p><span style="color: #ffffff; line-height:22px;"><span style="font-size: 18px; font-weight:700; ">Speaker Name</span><br><span style="font-size: 15px; font-weight:500; ">Speaker Title</span><br><span style="font-size: 15px; font-weight:500; ">Company Name<br></span>
+              <span style="font-size: 15px; ">Speaker bio can go here nulla luctus odio leo, sed aliquam ante consequat eget. Nullam orci leo, aliquet ac magna.</span></span>
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" vertical-align="top">
+        <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/SpeakerImg.png" alt="Speaker01" align="center" border="none" width="125px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10"></mj-image>
+        <mj-text align="center" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p><span style="color: #ffffff; line-height:22px;"><span style="font-size: 18px; font-weight:700; ">Speaker Name</span><br><span style="font-size: 15px; font-weight:500; ">Speaker Title</span><br><span style="font-size: 15px; font-weight:500; ">Company Name<br></span>
+              <span style="font-size: 15px; ">Speaker bio can go here nulla luctus odio leo, sed aliquam ante consequat eget. Nullam orci leo, aliquet ac magna.</span></span>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!--Three speaker module-->
+    <mj-section css-class="mktoModule threeSpeaker" background-color="#ffffff" padding-bottom="20px" padding-top="20">
+      <mj-column padding-bottom="40px" padding-top="40" width="100%" background-color="#8e8e8e" vertical-align="top">
+        <mj-section>
+          <mj-column width="33.33333333333333%" vertical-align="top">
+            <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/SpeakerImg.png" alt="Speaker01" align="center" border="none" width="125px" padding-left="25px" padding-right="25px"></mj-image>
+          </mj-column>
+          <mj-column width="66.666666666666666%" vertical-align="top">
+            <mj-text align="left" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+              <p><span style="color: #ffffff; line-height:22px;"><span style="font-size: 18px; font-weight:700; ">Speaker Name</span><br><span style="font-size: 15px; font-weight:500; ">Speaker Title</span><br><span style="font-size: 15px; font-weight:500; ">Company Name<br></span>
+                  <span style="font-size: 15px; ">Speaker bio can go here nulla luctus odio leo, sed aliquam ante consequat eget. Nullam orci leo, aliquet ac magna.</span></span>
+              </p>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-section>
+          <mj-column width="33.33333333333333%" vertical-align="top">
+            <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/SpeakerImg.png" alt="Speaker01" align="center" border="none" width="125px" padding-left="25px" padding-right="25px"></mj-image>
+          </mj-column>
+          <mj-column width="66.666666666666666%" vertical-align="top">
+            <mj-text align="left" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+              <p><span style="color: #ffffff; line-height:22px;"><span style="font-size: 18px; font-weight:700; ">Speaker Name</span><br><span style="font-size: 15px; font-weight:500; ">Speaker Title</span><br><span style="font-size: 15px; font-weight:500; ">Company Name<br></span>
+                  <span style="font-size: 15px; ">Speaker bio can go here nulla luctus odio leo, sed aliquam ante consequat eget. Nullam orci leo, aliquet ac magna.</span></span>
+              </p>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-section>
+          <mj-column width="33.33333333333333%" vertical-align="top">
+            <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/SpeakerImg.png" alt="Speaker01" align="center" border="none" width="125px" padding-left="25px" padding-right="25px"></mj-image>
+          </mj-column>
+          <mj-column width="66.666666666666666%" vertical-align="top">
+            <mj-text align="left" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+              <p><span style="color: #ffffff; line-height:22px;"><span style="font-size: 18px; font-weight:700; ">Speaker Name</span><br><span style="font-size: 15px; font-weight:500; ">Speaker Title</span><br><span style="font-size: 15px; font-weight:500; ">Company Name<br></span>
+                  <span style="font-size: 15px; ">Speaker bio can go here nulla luctus odio leo, sed aliquam ante consequat eget. Nullam orci leo, aliquet ac magna.</span></span>
+              </p>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-column>
+    </mj-section>
+    <!--2 Key Speaker module 2 module-->
+    <mj-section css-class="mktoModule twoSpeaker2" background-color="#ffffff" padding-bottom="20px" padding-top="20" background-color="#efa03b" background-url="https://info.couchbase.com/rs/302-GJY-034/images/2 Key Speaker module 2BG.png" background-size="cover" background-repeat="no-repeat">
+      <mj-column padding-bottom="40px" padding-top="40" width="100%" vertical-align="top">
+        <mj-section>
+          <mj-column width="33.33333333333333%" vertical-align="top">
+            <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/SpeakerImg.png" alt="Speaker01" align="center" border="none" width="125px" padding-left="25px" padding-right="25px"></mj-image>
+          </mj-column>
+          <mj-column width="66.666666666666666%" vertical-align="top">
+            <mj-text align="left" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+              <p><span style="color: #ffffff; line-height:22px;"><span style="font-size: 18px; font-weight:700; ">Speaker Name</span><br><span style="font-size: 15px; font-weight:500; ">Speaker Title</span><br><span style="font-size: 15px; font-weight:500; ">Company Name<br></span>
+                  <span style="font-size: 15px; ">Speaker bio can go here nulla luctus odio leo, sed aliquam ante consequat eget. Nullam orci leo, aliquet ac magna.</span></span>
+              </p>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/1px line divider.png" alt="divider" align="center" padding-left="25px" padding-right="25px"></mj-image>
+        <mj-section>
+          <mj-column width="33.33333333333333%" vertical-align="top">
+            <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/SpeakerImg.png" alt="Speaker01" align="center" border="none" width="125px" padding-left="25px" padding-right="25px"></mj-image>
+          </mj-column>
+          <mj-column width="66.666666666666666%" vertical-align="top">
+            <mj-text align="left" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="16px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+              <p><span style="color: #ffffff; line-height:22px;"><span style="font-size: 18px; font-weight:700; ">Speaker Name</span><br><span style="font-size: 15px; font-weight:500; ">Speaker Title</span><br><span style="font-size: 15px; font-weight:500; ">Company Name<br></span>
+                  <span style="font-size: 15px; ">Speaker bio can go here nulla luctus odio leo, sed aliquam ante consequat eget. Nullam orci leo, aliquet ac magna.</span></span>
+              </p>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-column>
+    </mj-section>
+    <!-- Module - Join Us - Agenda module-->
+    <mj-section css-class="mktoModule joinUs" background-color="#ffffff" padding-bottom="20px" padding-top="20">
+      <mj-column width="100%" background-color="#5486d0" vertical-align="top">
+        <mj-text align="center" color="#ffffff" font-family="'Montserrat', sans-serif" font-size="15px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10">
+          <p><span style=""><span style="font-size: 24px;">Join us</span></span>
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%" background-color="#f3f3f3" vertical-align="top">
+        <mj-text align="left" color="#000000" font-family="'Montserrat', sans-serif" font-size="15px" padding-left="100px" padding-right="100px" padding-bottom="0px" padding-top="0">
+          <p><span style="font-size: 18px;">This free day-long educational event will feature a combination of hands-on workshops and presentations on Couchbase Server. <ul style="line-height:22px;">
+                <li>Understanding distributed database architecture</li>
+                <li>Scaling a distributed database and replicating data across multiple data centers</li>
+                <li>Querying Couchbase Server</li>
+              </ul>
+            </span>
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%" background-color="#ffffff" vertical-align="top">
+        <mj-text align="center" color="#000000" font-family="'Montserrat', sans-serif" font-size="15px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10">
+          <p><span style=""><span style="font-size: 24px;">Agenda</span></span>
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-section css-class="mktoModule agendaLineGray" background-color="#f3f3f3" padding-bottom="0" padding-top="0">
+        <mj-column width="33%" vertical-align="top">
+          <mj-text align="center" color="#000000" font-family="'Montserrat', sans-serif" font-size="15px" padding-left="100px">
+            <p><span style=""><span style="font-size: 15px; font-weight: 700;">8:30AM</span></span>
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="66%" vertical-align="top">
+          <mj-text align="left" color="#000000" font-family="'Montserrat', sans-serif" font-size="15px" padding-bottom="10px">
+            <p><span style=""><span style="font-size: 16px;">Registration and Lab Setup</span></span>
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section css-class="mktoModule agendaLineWhite" background-color="#ffffff" padding-bottom="0" padding-top="0">
+        <mj-column width="33%" vertical-align="top">
+          <mj-text align="center" color="#000000" font-family="'Montserrat', sans-serif" font-size="15px" padding-left="100px">
+            <p><span style=""><span style="font-size: 15px; font-weight: 700;">9AM</span></span>
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="66%" vertical-align="top">
+          <mj-text align="left" color="#000000" font-family="'Montserrat', sans-serif" font-size="15px" padding-bottom="10px">
+            <p><span style=""><span style="font-size: 16px;">Introduction to NoSQL and Couchbase</span></span>
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-column width="100%">
+        <mj-button background-color="#5486d0" color="#FFFFFF" font-size="12px" align="center" border-radius="0" vertical-align="middle" border="none" padding="15px 30px" href="https://www.couchbase.com/" font-family="'Montserrat', sans-serif" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10" font-weight="700">Contact Organizer</mj-button>
+      </mj-column>
+      <mj-section background-color="#ffffff" padding-bottom="20px" padding-top="20">
+        <mj-column width="50%" vertical-align="top">
+      </mj-section>
+    </mj-section>
+    <!-- Module with full width video 2-->
+    <mj-section css-class="mktoModule video2" background-color="#ffffff" padding-bottom="20px" padding-top="20">
+      <mj-column width="100%" vertical-align="top">
+        <mj-image src="https://info.couchbase.com/rs/302-GJY-034/images/full width video 2.png" alt="Sailing" align="center" border="none" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10"></mj-image>
+      </mj-column>
+      <mj-column width="100%" vertical-align="top">
+        <mj-text align="center" color="#000000" font-family="'Montserrat', sans-serif" font-size="15px" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10">
+          <p style="line-height:22px;"><span style="font-weight: bold; font-size: 22px;">Integer posuere erat a ante venenatis dapibus</span><br></br><span style="font-size: 15px;"> Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat. </span>
+          </p>
+        </mj-text>
+        <mj-button background-color="#5486d0" color="#FFFFFF" font-size="12px" font-weight="700" align="center" vertical-align="middle" border="none" padding="15px 30px" border-radius="0px" href="https://www.couchbase.com/" font-family="'Montserrat', sans-serif" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10">Call to Action</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- bottomCTA -->
+    <mj-section css-class="mktoModule bottomCTA" background-color="#000000" padding-bottom="20px" padding-top="20">
+      <mj-column width="100%" vertical-align="top">
+        <mj-text align="center" color="#FFFFFF" font-family="'Montserrat', sans-serif" font-size="22px" padding-left="60px" padding-right="60px" padding-bottom="10px" padding-top="10">
+          <p style="line-height:22px;">Fusce dapibus, tellus ac cursus commodo, mauris condimentum nibh ut fermentum</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-button background-color="#FFFFFF" color="#000000" font-size="15px" align="center" border-radius="0" vertical-align="middle" border="none" padding="15px 30px" href="https://www.couchbase.com/" font-family="'Montserrat', sans-serif" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10" font-weight="700">Call to Action</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- footer -->
+    <mj-section css-class="mktoModule footer" background-color="#ffffff" padding-bottom="35" padding-top="35" style="vertical-align:middle;" ;>
+      <mj-column width="38%" style="vertical-align:middle;" vertical-align="middle" padding-left="0px" padding-right="0" padding-bottom="0" padding-top="0">
+        <mj-image href="https://www.couchbase.com/" src="https://info.couchbase.com/rs/302-GJY-034/images/EmailLogo.png" alt="Couchbase logo" align="left" border="none"></mj-image>
+      </mj-column>
+      <mj-column width="24%" style="vertical-align:middle;" vertical-align="middle">
+        <mj-social padding-top="20px">
+          <mj-social-element name="facebook" href="[[SHORT_PERMALINK]]"> </mj-social-element>
+          <mj-social-element name="twitter" href="[[SHORT_PERMALINK]]"> </mj-social-element>
+          <mj-social-element name="google" href="[[SHORT_PERMALINK]]"> </mj-social-element>
+        </mj-social>
+      </mj-column>
+      <mj-column width="38%" style="vertical-align:middle;">
+        <mj-text align="right" color="#000000" font-family="'Montserrat', sans-serif" font-size="13px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="10">
+          <p><a href="https://www.couchbase.com/" style="text-decoration: none; color: inherit;">Privacy policy</a> | <a href="https://www.couchbase.com/" style="text-decoration: none; color: inherit;">Unsubscribe</a></p>
+          <p>3250 Olcott Street<br>Santa Clara, CA 95054</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
